@@ -7,7 +7,7 @@ var ObjectId = require('mongodb').ObjectID;
 var cors = require('cors');
 var app = express();
 var result={'body': []};
-var url = 'mongodb://pavan:pavan123@ds139370.mlab.com:39370/pavandb';
+var url = 'mongodb://Sowjanya:Anil_0424@ds139370.mlab.com:39370/asedemo1';
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
