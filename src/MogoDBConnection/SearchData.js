@@ -4,7 +4,7 @@
 
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
-var url = 'mongodb://root:root@ds151820.mlab.com:51820/asedemo';
+var url = 'mongodb://Sowjanya:Anil_0424@ds139370.mlab.com:39370/asedemo1';
 var findUser = function(db, callback) {
     var cursor =db.collection('demoase').find( );
     cursor.each(function(err, doc) {
